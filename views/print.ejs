@@ -1,0 +1,44 @@
+<%- include("partials/headerwith"); -%>
+<div class="angular" ng-app="">
+  <p  class="operation">Enter your Name: <input type="text" ng-model="name" placeholder="Enter Patient's Name"></p>
+  <p  class="operation">Enter the Quantity: <input type="text" ng-model="quantity" placeholder="Enter Quantity"></p>
+  <table class="invoice">
+    <tr>
+
+      <th colspan="3"><p class="operation pad">Patient Name : {{name}}</p></th>
+    </tr>
+    <tr>
+      <th><p class="operation pad">Med Name</p></th>
+      <th><p class="operation pad">Price</p></th>
+      <th><p class="operation pad">Quantity</p></th>
+
+    </tr>
+    <tr>
+      <td> <p class="operation pad"> <%=Name%> </p> </td>
+      <td> <p class="operation pad"> <%= Price %> </p> </td>
+      <td> <p class="operation pad"> {{quantity}}</p></td>
+    </tr>
+    <tr>
+      <td colspan="2"><p class="operation pad">Total</p></td>
+      <td><p class="operation pad">{{quantity*<%= Price %>}} /-</p></td>
+    </tr>
+
+
+
+  </table>
+</div>
+
+
+
+
+
+
+
+<form  action="/back" method="post">
+  <button type="submit" class="btn btn-dark btn-lg btn-block" name="button">Search</button>
+</form>
+
+
+</section>
+
+<%- include("partials/footer"); -%>

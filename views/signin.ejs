@@ -1,0 +1,33 @@
+<%- include("partials/headerwithout");  -%>
+
+<main class="form-signin">
+<form  action="/signin" method="post">
+
+
+      <h1 class="loghead h3 mb-3 fw-normal">Sign Up</h1>
+
+      <input type="text" id="inputEmail" class="top form-control" placeholder="UserName" name="username"  required autofocus>
+      <input type="email" id="email" class="mid form-control" placeholder="E-mail address" name="email"  required>
+
+      <input type="password" id="inputPassword" class=" bottom form-control" placeholder="Password" name="password"  required>
+
+      <button class="button w-100 btn btn-lg btn-primary" type="submit">Sign me Up! </button>
+
+</form>
+</main>
+<!-- <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div> -->
+
+</section>
+<%- include("partials/footer");  -%>

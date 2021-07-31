@@ -1,0 +1,150 @@
+
+
+
+
+<%- include("partials/headerwithout"); -%>
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Keep a track of your medicine stock in just a click.</h1>
+          <form action="/login" method="post">
+            <button type="submit" class="btn btn-dark btn-lg downbutton" name="login" value="login"><i class="fas fa-sign-in-alt"></i> Log-In</button>
+            <button type="submit" class="btn btn-outline-light btn-lg downbutton" name="sign" value="sign"><i class="fas fa-user-plus"></i> Sign-Up</button>
+          </form>
+
+        </div>
+        <div class="col-lg-4">
+          <img class="med-img" src="images/medicine.gif" alt="med-gif">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="row">
+      <div class=" feature-box col-lg-4">
+        <i class=" icon far fa-check-circle fa-5x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, anyone can operate it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-5x"></i>
+        <h3>Elite Clientele.</h3>
+        <p>We manage all the Meds, you would ever need.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-5x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Provide assistance 24/7.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <h2 class="review testimonial-text">This works very well..Now i can easily manage my pharmacy store.</h2>
+      <i class="icon1 far fa-user-circle fa-7x"></i>
+      <em>XYZ, Mumbai</em>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <h2 class="review testimonial-text">This has helped me alottt....it makes managing the store too easy...</h2>
+      <i class="icon1 far fa-user-circle fa-7x"></i>
+      <em>XYZ, Andheri</em>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <h2 class="review testimonial-text">This is easy to use and it is too pocket friendly❤</h2>
+      <i class="icon1 far fa-user-circle fa-7x"></i>
+      <em>XYZ, Mahim</em>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </section>
+
+  <section id="pricing">
+
+    <h2>A Plan for Everyone.</h2>
+    <p>Simple and affordable price plans for your Pharmacy.</p>
+    <div class="row">
+
+    <div class="pricecolumn col-lg-4 col-md-6">
+     <div class="card">
+      <div class="card-header">
+        <h3>Monthly</h3>
+      </div>
+      <div class="card-body">
+        <h2>1300 Rs / month</h2>
+        <p>Pocket Friendly!!</p>
+        <p>Easily Affordable</p>
+        <!-- <p>Unlimited App Usage</p>
+        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Sign Up</button> -->
+      </div>
+    </div>
+  </div>
+
+    <div class="pricecolumn col-lg-4 col-md-6">
+      <div class="card">
+      <div class="card-header">
+        <h3>Yearly</h3>
+      </div>
+      <div class="card-body">
+        <h2>12,000 Rs / year</h2>
+        <p>Get discounted rate</p>
+        <p>Enjoy Seamless Service</p>
+        <!-- <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="btn btn btn-dark btn-lg btn-block">Sign Up</button> -->
+      </div>
+      </div>
+    </div>
+
+    <div class="pricecolumn col-lg-4">
+      <div class="card">
+      <div class="card-header">
+        <h3>LifeTime</h3>
+      </div>
+      <div class="card-body">
+        <h2>35K</h2>
+        <p>Available lifetime</p>
+        <p>No limitations</p>
+        <!-- <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button" class="btn btn btn-dark btn-lg btn-block">Sign Up</button> -->
+      </div>
+    </div>
+    </div>
+</div>
+
+  </section>
+
+  <section id="cta">
+
+    <h3 class="cta-text">Start now and Enjoy....</h3>
+    <form action="/login" method="post">
+      <button type="submit" class="btn btn-dark btn-lg downbutton" name="login" value="login"><i class="fas fa-sign-in-alt"></i> Log-In</button>
+      <button type="submit" class="btn btn-outline-light btn-lg downbutton" name="sign" value="sign"><i class="fas fa-user-plus"></i> Sign-Up</button>
+    </form>
+
+
+  </section>
+  <%- include("partials/footer"); -%>

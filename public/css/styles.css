@@ -1,0 +1,256 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1;
+  font-size: 3rem;
+  padding-top:60px;
+  padding-bottom:60px;
+  font-weight: bolder;
+}
+h2{
+
+  font-size:3rem;
+  line-height:1.5;
+
+}
+h3{
+  font-family:"Montserrat-Bold";
+}
+p{
+  color:#8f8f8f;
+}
+table, th, td {
+  border: 1px solid white;
+  margin-bottom: 20px;
+  padding:10px;
+  width:100%;
+}
+#title{
+  background-color:#ff4c68;
+  color:white;
+}
+#features{
+  padding:10% 15%;
+  background-color:white;
+  position:relative;
+  z-index:1;
+}
+#testimonials{
+  font-family:"Montserrat-bold";
+  background-color:#ef8172;
+  color:white;
+  text-align:center;
+
+}
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:20px;
+}
+#pricing{
+  font-family:"Montserrat-bold";
+  text-align:center;
+  padding:30px 40px;
+}
+#cta{
+  font-family:"Montserrat-Black";
+  color:white;
+
+  background-color:#ef8172;
+  text-align:center;
+}
+#footer{
+  background-color:white;
+  color:black;
+  padding:7% 15%;
+  text-align:center;
+
+}
+.pad{
+  padding: 2% 3%;
+
+
+}
+.angular{
+  align-items: center;
+}
+.invoice{
+  align-items: center;
+  border: 1px solid white;
+  margin: 5% 3%;
+
+}
+.container-fluid{
+  padding:3% 15%;
+}
+.copyright
+{
+  font-weight:bolder;
+  font-family: "Montserrat:bold";
+
+}
+}
+.carousel-inner{
+  padding:7% 15%
+}
+.card{
+  padding:3% 2%;
+}
+.cta-text{
+  font-size:3.5rem;
+  line-height:1.5;
+  font-weight:bold;
+  padding:7%;
+}
+.btn btn-dark btn-lg{
+  padding-top:30px;
+}
+.btn btn-light btn-lg{
+  padding-top:30px;
+}
+.dog-image{
+  width:15%;
+  border-radius:100%;
+  margin:20px;
+
+}
+.foot-icon{
+margin:20px 10px;
+}
+.med-img{
+  postition:absolute;
+}
+.press-logo{
+  width:15%;
+  margin-bottom:20px;
+}
+.pricecolumn{
+  padding:3% 2%;
+}
+.navbar-brand
+{
+  font-family: 'Caveat', cursive;
+  font-size:2.5rem;
+  font-weight:bolder;
+
+}
+.navbar{
+  padding-left:0;
+  padding-right:0;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-Light";
+  font-weight: bold;
+  color:#f7f6e7;
+}
+.nav-item{
+  padding:0 18px;
+  color:#f6f6f6;
+}
+.downbutton{
+margin:0 3% 5% 0;
+}
+.title-img{
+  width:60%;
+}
+.feature-box{
+  text-align:center;
+  padding:5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom:3%;
+}
+.icon1{
+  margin-bottom: 10%;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.mid{
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 10%;
+}
+/* .loginlogo{
+  width:10%;
+} */
+.button{
+  margin-bottom: 20%;
+}
+.loghead{
+  text-align: center;
+  padding-top: 30px;
+}
+.review{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.content{
+  color:white;
+}
+.One{
+  align-content: center;
+}
+.buttonsp{
+  margin:7% auto;
+}
+.down{
+  margin:4% auto;
+  background-color:#ff4c68;
+}
+.operation{
+  color:white;
+  font-family:"Montserrat-Bold";
+  font-size: 1.87rem;
+  padding-top: 8%;
+}
+.drugdrop{
+  align-items: center;
+}
+.addmid{
+  text-align: center;
+}
+.addb{
+  margin-top: 5%;
+}
+@media (max-with:993px){
+  #title{
+    text-align:center;
+  }
+}

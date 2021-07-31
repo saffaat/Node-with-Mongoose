@@ -1,0 +1,20 @@
+<%- include("partials/headerwith"); -%>
+
+<p class="operation">Name:  <%= Name %></p>
+<p class="operation">Stock:  <%= Stock %></p>
+<p class="operation">Price:  <%= price %></p>
+<p class="operation">Location:  <%= location %></p>
+
+<form action="/return" method="post">
+  <button type="submit" class="btn btn-dark btn-lg btn-block" name="searchbutton" value="searchbutton">Search</button>
+  <button type="submit" class="btn btn-dark btn-lg btn-block" name="printbutton" value="printbutton">Print</button>
+
+</form>
+
+
+
+
+
+</section>
+
+<%- include("partials/footer"); -%>
